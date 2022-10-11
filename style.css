@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+section {
+  margin: auto;
+  height: 500px;
+  width: 100%;
+  background: url(image/bc.jpeg) no-repeat;
+  /* background-position: top; */
+  background-size: cover;
+  position: relative;
+}
+
+img {
+  position: absolute;
+}
+
+.p1 {
+  /* z-index: 1; */
+  top: 250px;
+  right: 600px;
+}
+.p2 {
+  z-index: 2;
+  top: 250px;
+  right: 610px;
+}
+.p3 {
+  z-index: 4;
+  top: 280px;
+  right: 1250px;
+}
+.p3-s {
+  z-index: 3;
+  top: 370px;
+  right: 1230px;
+}
+.p4 {
+  z-index: 5;
+  top: 250px;
+  right: 950px;
+}
